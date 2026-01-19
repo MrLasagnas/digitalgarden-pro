@@ -14,7 +14,7 @@
 - [[Nuke_KB/10_Nodes/Pref Sticker\|Pref Sticker]]
 - [[Nuke_KB/10_Nodes/Reformat2Bbox\|Reformat2Bbox]]
 - [[Nuke_KB/10_Nodes/STMap Generator\|STMap Generator]]
-- [[Switch_Bake\|Switch_Bake]]
+- [[Nuke_KB/10_Nodes/Switch Bake\|Switch Bake]]
 - [[Nuke_KB/10_Nodes/RS Guided Blur fixed\|RS Guided Blur fixed]]
 - [[Nuke_KB/10_Nodes/Rs Guided Blur\|Rs Guided Blur]]
 - [[Nuke_KB/10_Nodes/Despill To BG\|Despill To BG]]
