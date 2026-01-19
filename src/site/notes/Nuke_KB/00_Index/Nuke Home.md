@@ -14,5 +14,4 @@
 - [[Nuke_KB/00_Index/Sections/Studios\|Studios]]
 - [[Nuke_KB/00_Index/Sections/Staying Up to Date\|Staying Up to Date]]
 - [[Nuke_KB/00_Index/Sections/Resources\|Resources]]
-- [[Nuke_KB/00_Index/Sections/Comp TO DO\|Comp TO DO]]
 
