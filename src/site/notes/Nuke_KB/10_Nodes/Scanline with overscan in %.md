@@ -1,0 +1,48 @@
+---
+{"dg-publish":true,"permalink":"/nuke-kb/10-nodes/scanline-with-overscan-in/","tags":["nuke","node","scanline","rendering"]}
+---
+
+
+# Aberration Matcher
+
+## 🧠 Description
+
+As the name says, control your overscan by the percentage of a resolution.
+## 🎯 When to use
+
+
+## ⚠️ Known pitfalls
+- 
+
+## 🧩 Dependencies
+
+## 🧪 Alternatives
+
+## 🧾 Code
+
+```
+Reformat {
+ inputs 0
+ format "1920 1080 0 0 1920 1080 1 HD_1080"
+ name Reformat6
+ selected true
+ xpos 730
+ ypos -111
+}
+ScanlineRender {
+ inputs 3
+ conservative_shader_sampling false
+ antialiasing high
+ overscan {{"\[if \{\[exists input0]\} \{return ((\[lindex \[value input0.format] 0]/100)*(100+\[value this.percentage]))-\[lindex \[value input0.format] 0]\} \{return ((\[lindex \[value format] 0]/100)*(100+\[value this.percentage]))-\[lindex \[value format] 0]\}]"} {"\[if \{\[exists input0]\} \{return ((\[lindex \[value input0.format] 1]/100)*(100+\[value this.percentage]))-\[lindex \[value input0.format] 1]\} \{return ((\[lindex \[value format] 1]/100)*(100+\[value this.percentage]))-\[lindex \[value format] 1]\}]"}}
+ shutteroffset centred
+ motion_vectors_type distance
+ name ScanlineRender2
+ label "OS: \[value percentage]%"
+ selected true
+ xpos 510
+ ypos -111
+ addUserKnob {20 User l OS}
+ addUserKnob {7 percentage l "OS Percentage" R 0 100}
+ percentage 10
+}
+```
