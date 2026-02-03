@@ -15,3 +15,5 @@
 - [[Nuke_KB/20_Techniques/Mocha\|Mocha]]
 - [[Nuke_KB/20_Techniques/Tracking\|Tracking]]
 - [[Nuke_KB/20_Techniques/General Tips\|General Tips]]
+- [[Nuke_KB/20_Techniques/Deep Comp\|Deep Comp]]
+- 
