@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/nuke-kb/90-templates/node-template/","tags":["nuke","node"]}
+{"dg-publish":true,"permalink":"/nuke-kb/10-nodes/p2-pref/","tags":["nuke","node","tool"]}
 ---
 
 
@@ -19,5 +19,5 @@
 ## 🧾 Code
 
 ```
-
+https://github.com/petermercell/P2Pref
 ```

@@ -135,7 +135,7 @@ nuke.delete(my_blur)
 
   
 
-Then, we can access a specific knob of our knob with this method :
+Then, we can access a specific knob of our node with this method :
 
 ```Python
 b_size = my_blur.knob("size")
